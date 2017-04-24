@@ -1,0 +1,87 @@
+body{
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(184,198,223,1) 0%,
+    rgba(109,136,183,1) 100%);
+    padding-top: 3rem;
+}
+.container{
+    width: 30%;
+    height: 500px;
+    border: 3px solid #bbb;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, rgba(245,246,246,1) 0%,rgba(219,220,226,1)
+    21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);
+    margin: 0 auto;
+    box-shadow: 5px 5px 0px #555;
+}
+.output {
+    width: 80%;
+    height: 15%;
+    border: 3px solid #bbb;
+    border-radius: 3px;
+    background-color: #fefcea;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    direction: rtl;
+}
+.operator_output{
+    width: 50px;
+    height: 30%;
+    display: block;
+}
+.equation_output{
+    font-size: 2rem;
+}
+section {
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.digits {
+    width: 70%;
+    height: 100%;
+}
+.operators {
+    width: 25%;
+    height: 100%;
+}
+.calcilate {
+    width: 80%;
+    height: 9%;
+    background-color: #fefcea;
+    margin: 0 auto;
+}
+button {
+    border-radius: 2px;
+    background-color: #eee;
+    z-index: 1;
+}
+.operators button{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5px;
+}
+.digits button{
+    width: 30%;
+    height: 20%; 
+    margin-bottom: 5px;
+}
+.digits button:last-child {
+    background-color: #eaa5a5;
+}
+.calcilate button {
+    width: 100%;
+    height: 100%;
+}
+/* Small Devices, Tablets */
+@media screen and (max-width: 650px){
+.container{
+    width: 80%;
+}}
+/* Medium Devices, Desktops */
+@media screen and (min-width:651px) and (max-width: 1200px){
+.container{
+    width: 50%;
+}}
