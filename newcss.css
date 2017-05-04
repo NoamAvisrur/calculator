@@ -23,6 +23,7 @@ body{
     margin-top: 2rem;
     margin-bottom: 2rem;
     direction: rtl;
+    overflow-y: auto;
 }
 .operator_output{
     width: 50px;
