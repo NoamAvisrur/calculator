@@ -1,7 +1,7 @@
 body{
     background: -webkit-radial-gradient(center, ellipse cover, rgba(184,198,223,1) 0%,
     rgba(109,136,183,1) 100%);
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 .container{
     width: 30%;
